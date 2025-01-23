@@ -37,9 +37,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3728096384
 
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
